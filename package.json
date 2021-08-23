@@ -1,0 +1,9 @@
+{
+  "name": "ps-poc-cdc",
+  "version": "0.0.1",
+  "description": "POC for cross domain component in VueJS",
+  "main": "index.js",
+  "repository": "https://github.com/TakeshiDaveau/ps-poc-cdc",
+  "author": "takeshi.daveau@prestashop.com",
+  "license": "MIT"
+}
