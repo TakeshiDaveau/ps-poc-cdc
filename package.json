@@ -5,5 +5,9 @@
   "main": "index.js",
   "repository": "https://github.com/TakeshiDaveau/ps-poc-cdc",
   "author": "takeshi.daveau@prestashop.com",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "yarn --cwd ./poc-cdc-app/ & yarn --cwd ./poc-cdc-component/",
+    "serve": "yarn --cwd ./poc-cdc-app/ serve --open & yarn --cwd ./poc-cdc-component/ serve"
+  }
 }

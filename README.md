@@ -1,24 +1,18 @@
 # ps-poc-cdc
 
+This is the simplest POC to use cross domain component in VueJS
+
 ## Project setup
 ```
 yarn install
 ```
 
 ### Compiles and hot-reloads for development
+
 ```
 yarn serve
 ```
 
-### Compiles and minifies for production
-```
-yarn build
-```
+This will open: http://localhost:8081 automatically. If you inspect the page you should see tha te contact comes from a cross domain component which use an iframe.
 
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+![Chrome console with the iframe displayed](./iframe.png)
